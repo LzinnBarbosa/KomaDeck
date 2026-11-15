@@ -145,3 +145,11 @@ KomaDeck/
   * Uso de `key = { it.idUnico }` nos componentes `LazyColumn` e estados imutáveis (`data class`) para evitar recomposições desnecessárias no Compose.
   * Tratamento defensivo de campos nulos vindos das APIs (`score`, `synopsis`, `images`, `broadcast`).
 * **Validação Automatizada e Manual:** Execução da suíte JUnit via Gradle (`./gradlew testDebugUnitTest`) seguida de teste funcional em emulador com ativação do **Modo Avião**.
+
+---
+
+## 7. Refinamento de Interface e Localização PT-BR
+
+* **Identidade Visual (Tema Claro Editorial):** Esquema de cores claro exclusivo (`Background #F7F8FC`, `Surface #FFFFFF`, `Primary #3949AB`) com badges semânticos por categoria (Coral para Animes, Esmeralda para Mangás e Azul Cobalto para Séries) e banner discreto em âmbar suave para o modo offline.
+* **Layout e Navegação:** Cards horizontais detalhados nas abas inferiores (*Animes*, *Mangás*, *Séries* e *Favoritos Offline*) com ícones semânticos (`SmartDisplay`, `AutoStories`, `Tv`, `Favorite`) e busca unificada com chips de filtro por categoria (*Todos*, *Animes*, *Séries*).
+* **Localização 100% PT-BR:** Tradução determinística de status e dias da semana na camada `data/mapper` e tradução automática de sinopses (`en` $\rightarrow$ `pt-BR`) antes da persistência no Room, com fallback offline para o texto sanitizado.
