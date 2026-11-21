@@ -1,0 +1,6 @@
+{
+  "name": "KomaDeck",
+  "description": "Catálogo unificado Offline-First de Animes da Temporada, Top Mangás e Séries do Dia em Português do Brasil.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
