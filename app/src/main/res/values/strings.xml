@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">KomaDeck</string>
+
+    <!-- Abas de Navegação -->
+    <string name="aba_animes">Animes</string>
+    <string name="aba_mangas">Mangás</string>
+    <string name="aba_series">Séries</string>
+    <string name="aba_favoritos">Favoritos</string>
+
+    <!-- Títulos das Seções -->
+    <string name="titulo_animes_temporada">Animes da Temporada</string>
+    <string name="titulo_top_mangas">Top Mangás</string>
+    <string name="titulo_series_dia">Séries em Destaque</string>
+    <string name="titulo_favoritos_offline">Favoritos Offline</string>
+    <string name="titulo_detalhes">Detalhes da Obra</string>
+
+    <!-- Categorias -->
+    <string name="categoria_anime">Anime</string>
+    <string name="categoria_manga">Mangá</string>
+    <string name="categoria_serie">Série</string>
+
+    <!-- Busca e Filtros -->
+    <string name="busca_placeholder">Buscar animes, mangás ou séries (mín. 3 letras)…</string>
+    <string name="busca_limpar_desc">Limpar busca</string>
+    <string name="busca_icone_desc">Buscar</string>
+    <string name="busca_minimo_caracteres">Digite pelo menos 3 caracteres para buscar.</string>
+    <string name="filtro_todos">Todos</string>
+    <string name="filtro_animes">Animes</string>
+    <string name="filtro_mangas">Mangás</string>
+    <string name="filtro_series">Séries</string>
+
+    <!-- Ordenação e Biblioteca -->
+    <string name="ordenar_em_alta">Em Alta</string>
+    <string name="ordenar_melhores_notas">Melhores Notas</string>
+    <string name="ordenar_em_exibicao">Em Exibição</string>
+    <string name="label_meu_progresso">Meu Progresso na Biblioteca</string>
+    <string name="label_ficha_tecnica">Ficha Técnica</string>
+    <string name="label_generos">Gêneros</string>
+    <string name="label_episodios">Episódios</string>
+    <string name="label_capitulos">Capítulos</string>
+    <string name="label_estudio">Estúdio</string>
+    <string name="label_emissora">Emissora</string>
+    <string name="label_ano">Ano</string>
+
+    <!-- Ações e Status -->
+    <string name="acao_sincronizar">Sincronizar catálogo</string>
+    <string name="acao_voltar">Voltar</string>
+    <string name="acao_favoritar">Adicionar aos favoritos</string>
+    <string name="acao_desfavoritar">Remover dos favoritos</string>
+    <string name="acao_tentar_novamente">Tentar novamente</string>
+    <string name="banner_modo_offline">Modo Offline — exibindo dados salvos localmente</string>
+
+    <!-- Detalhes e Estados -->
+    <string name="nota_indisponivel">N/A</string>
+    <string name="label_nota">Nota média</string>
+    <string name="label_status">Status</string>
+    <string name="label_transmissao">Transmissão</string>
+    <string name="label_sinopse">Sinopse</string>
+    <string name="sinopse_indisponivel">Sinopse não disponível no momento.</string>
+    <string name="horario_nao_informado">Horário não informado</string>
+    <string name="status_nao_informado">Status não informado</string>
+
+    <!-- Estados Vazios e Erros -->
+    <string name="vazio_catalogo">Nenhuma obra encontrada nesta seção.</string>
+    <string name="vazio_favoritos_titulo">Nenhum favorito salvo</string>
+    <string name="vazio_favoritos_subtitulo">Toque no coração em qualquer anime, mangá ou série para acessar mesmo offline.</string>
+    <string name="vazio_busca_titulo">Nenhum resultado encontrado</string>
+    <string name="vazio_busca_subtitulo">Tente outro termo ou altere o filtro de categoria.</string>
+    <string name="erro_carregar_dados">Não foi possível carregar os dados. Verifique sua conexão e tente novamente.</string>
+    <string name="erro_detalhes_nao_encontrado">Obra não encontrada no catálogo local.</string>
+</resources>
